@@ -69,17 +69,24 @@ streamlit run app.py
 ```
 
 ## 📁 Repository Structure
+
+```
 clv-predictor/
-
-├── CLV_Predictor_Final.ipynb   # Main analysis notebook
-
-├── app.py                       # Streamlit app
-
-├── clv_model.pkl                 # Trained RandomForest model
-
-├── *.png                         # Visualisations
-
-└── README.md
+├── .gitignore
+├── CLV_Predictor_Final.ipynb        # Main analysis notebook
+├── README.md
+├── actual_vs_predicted.png           # Model evaluation
+├── app.py                            # Streamlit app
+├── clv_model.pkl                     # Trained XGBoost model
+├── customer_segments.png             # Segmentation
+├── customer_spend_distribution.png   # EDA visualisation
+├── elbow_method.png                  # Segmentation
+├── feature_correlation.png           # Feature engineering visualisation
+├── feature_importance.png            # Model evaluation
+├── log_transform_comparison.png      # Feature engineering visualisation
+├── monthly_revenue_trend.png         # EDA visualisation
+└── top10_customers.png               # EDA visualisation
+```
 
 ## 📝 Limitations and Next Steps
 
